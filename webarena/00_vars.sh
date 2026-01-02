@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# PUBLIC_HOSTNAME=$(curl -s ifconfig.me)
-PUBLIC_HOSTNAME="YOUR_HOSTNAME_HERE"
+PUBLIC_HOSTNAME=$(curl -s ifconfig.me)
 
 # Change ports as desired
 SHOPPING_PORT=8082
@@ -10,7 +9,7 @@ REDDIT_PORT=8080
 GITLAB_PORT=9001
 WIKIPEDIA_PORT=8081
 MAP_PORT=443
-HOMEPAGE_PORT=80
+HOMEPAGE_PORT=8085
 RESET_PORT=7565
 
 # Original webarena ports
