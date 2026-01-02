@@ -10,7 +10,7 @@ docker start forum
 # docker start kiwix33
 docker start wikipedia
 
-cd openstreetmap-website/
+cd /home/ubuntu/openstreetmap-website/
 docker compose start
 
 echo -n -e "Waiting 60 seconds for all services to start..."
